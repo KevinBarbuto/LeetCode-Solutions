@@ -11,14 +11,19 @@ class Solution:
         
         # For each symbol, subtract values smaller than next one
         # Add symbols bigger or equal in value to next
-        for i in range(len(s)):
-            if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:
-                result -= roman[s[i]]
-                
-            else:
-                result += roman[s[i]]
+        try:
+            for i in range(len(s)):
             
-        return result
+                if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:
+                    result -= roman[s[i]]
+                
+                else:
+                    result += roman[s[i]]
+            
+            return result
+        
+        except: # Error message for invalid input. Suggested by my girlfriend.
+            print("Bruh, you were supposed to enter a valid Roman numeral.")
 
 obj = Solution()
 print(obj.romanToInt(input("Enter any Roman numeral: ")))
