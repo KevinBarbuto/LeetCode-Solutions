@@ -19,11 +19,13 @@ class Solution:
                 
                 else:
                     result += roman[s[i]]
-            
+
+            print("Good job. Your answer is: ")
             return result
         
         except: # Error message for invalid input. Suggested by my girlfriend.
-            print("Bruh, you were supposed to enter a valid Roman numeral.")
+            print("Uh oh, seems like something went wrong. \
+Make sure that your input is a valid Roman numeral. You've got this, honey.")
 
 obj = Solution()
-print(obj.romanToInt(input("Enter any Roman numeral: ")))
+print(obj.romanToInt(input("Please enter a Roman numeral. ")))
