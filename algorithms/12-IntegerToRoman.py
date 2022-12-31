@@ -17,6 +17,3 @@ class Solution:
             num = num % value # Set next value to divide
         
         return result
-
-obj = Solution()
-print(obj.intToRoman( int(input("Enter an Arabic numeral to be converted. ")) ))
