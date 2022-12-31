@@ -26,6 +26,3 @@ class Solution:
         except: # Error message for invalid input. Suggested by my girlfriend.
             print("Uh oh, seems like something went wrong. \
 Make sure that your input is a valid Roman numeral. You've got this, honey.")
-
-obj = Solution()
-print(obj.romanToInt(input("Please enter a Roman numeral. ")))
