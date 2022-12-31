@@ -1,3 +1,6 @@
+# Objective: Create a list of numbers that prints out "fizz" if the number is divisible by 3, 
+# "buzz" if the number is divisible by 5, and "fizzbuzz" if the number is divisible by both.
+
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
 
