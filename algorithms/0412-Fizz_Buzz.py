@@ -6,7 +6,6 @@ class Solution:
 
         # Define initial array
         fbarray = []
-        print(fbarray)
         
         # For loop to construct array
         for i in range(1,n+1):
