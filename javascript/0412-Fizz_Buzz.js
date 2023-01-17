@@ -6,7 +6,7 @@
  * @return {string[]}
  */
 var fizzBuzz = function(n) {
-    result = []
+    result = [];
 
     for (i=1; i<=n; i++) {
         // Check for case where it's divisible by 3 and 5
