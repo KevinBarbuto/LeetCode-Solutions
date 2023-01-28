@@ -1,5 +1,8 @@
 // The classic FizzBuzz problem.
 
+
+<?php
+
 class Solution {
 
     /**
@@ -23,3 +26,5 @@ class Solution {
         return $ans;
     }
 }
+
+?>
