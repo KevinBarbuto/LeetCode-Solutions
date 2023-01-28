@@ -1,6 +1,4 @@
 // The classic FizzBuzz problem.
-
-
 <?php
 
 class Solution {
