@@ -1,4 +1,4 @@
-// The classic FizzBuzz problem
+// The classic FizzBuzz problem.
 
 class Solution {
 
