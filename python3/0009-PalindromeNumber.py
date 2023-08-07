@@ -5,7 +5,7 @@ class Solution:
         first = str(x) # value to compare final result to
         newString = "" # where the palindrome goes
 
-        for i in first [::-1]:
+        for i in first [::-1]: # iterate through reversed string
             newString += i
         
         if first == newString:
