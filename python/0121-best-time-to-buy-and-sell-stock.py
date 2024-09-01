@@ -1,5 +1,6 @@
 # Objective: Given a list (representing a series of stock prices after certain time intervals), 
-# determine the greatest profit that can be made, assuming that the "buy low, sell high" investment strategy is employed.
+# determine the greatest profit that can be made, assuming that the "buy low, sell high" 
+# investment strategy is employed.
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
