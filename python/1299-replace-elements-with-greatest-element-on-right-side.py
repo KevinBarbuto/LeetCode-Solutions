@@ -1,4 +1,4 @@
-# Takes an array of elements and replaces each item with the largest value following it.
+# Takes an array and replaces each element with the largest value following it.
 
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
