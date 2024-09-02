@@ -1,3 +1,6 @@
+# Takes an array of integers "nums" and returns the number of "good pairs",
+# where a pair (i, j) is defined as "good" if nums[i] == nums[j] and i < j.
+
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
         nums = sorted(nums)
